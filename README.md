@@ -1,0 +1,4 @@
+1. Crearemos una carpeta en nuestro equipo llamada "Escaner"
+2. Copiaremos el repo a dicha carpeta
+3. Abiera la bash en la rutra de la carpeta pondremos el comando "python3 escaner3.py" que ejecutara el script
+4. Ingresamos el nombre de la carpeta a escanear
