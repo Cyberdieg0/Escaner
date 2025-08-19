@@ -20,7 +20,7 @@ if os.path.exists(ruta):
     for carpeta_actual, subcarpetas, archivos in os.walk(ruta):
         for archivo in archivos:
             if archivo.endswith(".exe") or archivo.endswith(".bat"):
-                print(f"⚠️ Archivo sospechoso: {archivo} → en: {carpeta_actual}")
+                print(f"Archivo sospechoso: {archivo} → en: {carpeta_actual}")
                 encontrados += 1
 
     if encontrados == 0:
